@@ -4704,118 +4704,6 @@
       "value": "Chưa có sản phẩm nào trong giỏ"
     }]
   }, {
-    "id": "9d30a929-3a27-4a13-914f-25b835b49057",
-    "name": "TC25 - Xem chi tiết đơn hàng đã mua ",
-    "commands": [{
-      "id": "5d6d3b9c-aa10-4a4c-a1cb-4bd41c788cbe",
-      "comment": "",
-      "command": "open",
-      "target": "https://nhathuoclongchau.com.vn/",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "ea6f1fd6-0e7d-4e63-be62-bb4cfe9ffad3",
-      "comment": "",
-      "command": "click",
-      "target": "css=.max-w-\\[100px\\]",
-      "targets": [
-        ["css=.max-w-\\[100px\\]", "css:finder"],
-        ["xpath=//div[@id='__next']/div/header/div/div[2]/div/div/div[5]/div/div/div/a/div", "xpath:idRelative"],
-        ["xpath=//div[5]/div/div/div/a/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "f1e6fbc4-1ad4-4645-b92b-b74e10154624",
-      "comment": "",
-      "command": "click",
-      "target": "css=.navigation-item:nth-child(2) > .css-1v577ri",
-      "targets": [
-        ["css=.navigation-item:nth-child(2) > .css-1v577ri", "css:finder"],
-        ["xpath=//div[@id='__next']/div/div[2]/div[3]/div/div[2]/div/div[2]/div[2]/p", "xpath:idRelative"],
-        ["xpath=//div[2]/div[2]/p", "xpath:position"],
-        ["xpath=//p[contains(.,'Đơn hàng của tôi')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "3e5f7298-721c-4976-b817-e4ef2897f1f9",
-      "comment": "",
-      "command": "click",
-      "target": "css=.mt-2:nth-child(1) .text-text-focus:nth-child(1)",
-      "targets": [
-        ["css=.mt-2:nth-child(1) .text-text-focus:nth-child(1)", "css:finder"],
-        ["xpath=//div[@id='rc-tabs-0-panel-0']/div/div[2]/a/div/button", "xpath:idRelative"],
-        ["xpath=//a/div/button", "xpath:position"],
-        ["xpath=//button[contains(.,'Xem chi tiết')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "1bcf1aec-772b-4237-bc05-9fd5ce81375d",
-      "comment": "",
-      "command": "verifyText",
-      "target": "css=div:nth-child(2) > .justify-between",
-      "targets": [
-        ["css=div:nth-child(2) > .justify-between", "css:finder"],
-        ["xpath=//div[@id='__next']/div/div[2]/div[3]/div/div[2]/div/div/div[2]/div", "xpath:idRelative"],
-        ["xpath=//div[3]/div/div[2]/div/div/div[2]/div", "xpath:position"]
-      ],
-      "value": "Danh sách sản phẩm"
-    }]
-  }, {
-    "id": "4f4967c3-8665-4187-9530-399c6f61c957",
-    "name": "TC27 - Kiểm tra yêu cầu tư vấn",
-    "commands": [{
-      "id": "17abb6b6-dffc-4a41-829e-e412d7563d1a",
-      "comment": "",
-      "command": "open",
-      "target": "https://nhathuoclongchau.com.vn/",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "9d75e17b-d885-4e87-a820-16fbc32525bd",
-      "comment": "",
-      "command": "click",
-      "target": "css=.navigation-item:nth-child(6) > .css-1v577ri",
-      "targets": [
-        ["css=.navigation-item:nth-child(6) > .css-1v577ri", "css:finder"],
-        ["xpath=//div[@id='__next']/div/div[2]/div[3]/div/div[2]/div/div[2]/div[6]/p", "xpath:idRelative"],
-        ["xpath=//div[6]/p", "xpath:position"],
-        ["xpath=//p[contains(.,'Đơn thuốc của tôi')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "66b1e6f8-2af3-4926-a46b-887b6c8834cd",
-      "comment": "",
-      "command": "click",
-      "target": "css=circle:nth-child(3)",
-      "targets": [
-        ["css=circle:nth-child(3)", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "0442a447-5f65-4e3f-a70b-64232d775bb4",
-      "comment": "",
-      "command": "click",
-      "target": "css=.text-blue-500 > .css-15sc8tc",
-      "targets": [
-        ["css=.text-blue-500 > .css-15sc8tc", "css:finder"],
-        ["xpath=//div[@id='rc-tabs-0-panel-1']/div/div[3]/div/a/p", "xpath:idRelative"],
-        ["xpath=//div[3]/div/a/p", "xpath:position"],
-        ["xpath=//p[contains(.,'Xem chi tiết')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "c27c1f76-817a-4eb8-927d-b10b12c8120d",
-      "comment": "",
-      "command": "verifyText",
-      "target": "css=.pb-6",
-      "targets": [
-        ["css=.pb-6", "css:finder"],
-        ["xpath=//div[@id='__next']/div/div[2]/div[3]/div", "xpath:idRelative"],
-        ["xpath=//div[2]/div[3]/div", "xpath:position"]
-      ],
-      "value": "Trang chủ/\\nCá nhân/\\nĐơn thuốc của tôi/\\nChi tiết đơn thuốc\\nYêu cầu tư vấn 22/03/2026\\n16:04, 22/03/2026\\nĐã tư vấn\\nThông tin liên hệ\\ne uyen\\n0833478978\\nGhi chú: Tôi cần tư vấn thuốc đau dạ dày\\nCảm ơn bạn đã tin tưởng Nhà thuốc FPT Long Châu.\\nTư vấn lại cho tôi"
-    }]
-  }, {
     "id": "42c436c4-ae82-45b6-82c5-752dfc0991ae",
     "name": "TC29 - Câp nhật sổ địa chỉ",
     "commands": [{
@@ -5070,170 +4958,135 @@
     }]
   }, {
     "id": "934eabd5-f1d0-4b3f-ac64-4202abd0c4a6",
-    "name": "TC28 - Tra cứu dược liệu theo bảng chữ cái ",
+    "name": "TC28 - Kiểm tra tổng tiền của sản phẩm được chọn",
     "commands": [{
-      "id": "f728e8bc-2533-4572-be03-4f7ace6b2892",
+      "id": "f4c8ebcc-74cb-4670-b0e5-3582ffe4f55a",
       "comment": "",
       "command": "open",
       "target": "https://nhathuoclongchau.com.vn/",
       "targets": [],
       "value": ""
     }, {
-      "id": "227a0055-ae7a-4bc5-8c39-f29ca16b1e8c",
-      "comment": "",
-      "command": "pause",
-      "target": "2000",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "7b8644b2-6589-4cdd-9e6e-fe8514baa90d",
+      "id": "9fdfdddd-e982-40cc-a550-36362992b714",
       "comment": "",
       "command": "click",
-      "target": "css=.list-none:nth-child(3) .group-hover\\3Atext-blue-5:nth-child(1)",
+      "target": "css=.list-none:nth-child(2) .group-hover\\3Atext-blue-5:nth-child(1)",
       "targets": [
-        ["css=.list-none:nth-child(3) .group-hover\\3Atext-blue-5:nth-child(1)", "css:finder"],
-        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/li[3]/a/p", "xpath:idRelative"],
-        ["xpath=//li[3]/a/p", "xpath:position"]
+        ["css=.list-none:nth-child(2) .group-hover\\3Atext-blue-5:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/li[2]/a/p", "xpath:idRelative"],
+        ["xpath=//li[2]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Dược mỹ phẩm')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "d031671b-5ae1-4c53-8b69-ea3d865b9d71",
+      "id": "c88c9ad3-ae4b-44fb-a7a3-7cbb24fe71ec",
       "comment": "",
       "command": "click",
-      "target": "linkText=Tra cứu dược liệu",
+      "target": "css=.h-full:nth-child(2) .inline-flex",
       "targets": [
-        ["linkText=Tra cứu dược liệu", "linkText"],
-        ["css=#radix-\\3Ar6\\3A-trigger-9 > .flex", "css:finder"],
-        ["xpath=//button[@id='radix-:r6:-trigger-9']/a", "xpath:idRelative"],
-        ["xpath=(//a[contains(@href, '/duoc-lieu')])[2]", "xpath:href"],
-        ["xpath=//button[3]/a", "xpath:position"]
+        ["css=.h-full:nth-child(2) .inline-flex", "css:finder"],
+        ["xpath=//section[@id='category-page__products-section']/div[2]/div/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "fb830586-73fc-4ee3-b688-7c18f1a7ec96",
-      "comment": "",
-      "command": "//click",
-      "target": "css=.list-none:nth-child(3) .category-panel-left:nth-child(3) .ml-2\\.5",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "f874aa45-8a7a-434a-b31c-dbf8729e8538",
+      "id": "641a2c82-0a37-43a4-945b-903150690d3b",
       "comment": "",
       "command": "click",
-      "target": "css=.flex-shrink-0:nth-child(4)",
+      "target": "css=.h-full:nth-child(4) .inline-flex",
       "targets": [
-        ["css=.flex-shrink-0:nth-child(4)", "css:finder"],
-        ["xpath=//div[@id='__next']/div/div[2]/div[3]/div/div[2]/div/div[2]/div[4]", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div[2]/div[4]", "xpath:position"]
+        ["css=.h-full:nth-child(4) .inline-flex", "css:finder"],
+        ["xpath=//section[@id='category-page__products-section']/div[2]/div/div[4]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/button", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "c4539744-1e23-45a1-a4b9-9505695bfda6",
+      "id": "f59e86c9-b43a-4060-a6e6-86536ea9e6a7",
       "comment": "",
       "command": "click",
-      "target": "css=.\\!my-4 > .mb-6",
+      "target": "css=.css-14c0258",
       "targets": [
-        ["css=.\\!my-4 > .mb-6", "css:finder"],
-        ["xpath=//div[@id='__next']/div/div[2]/div[3]/div/div[2]/div/div", "xpath:idRelative"],
-        ["xpath=//div[2]/div[3]/div/div[2]/div/div", "xpath:position"]
+        ["css=.css-14c0258", "css:finder"],
+        ["xpath=//div[@id='__next']/div/header/div/div[2]/div/div/div[5]/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Giỏ hàng')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "1ae9fe11-424c-425a-a59a-8d65994f75ff",
-      "comment": "",
-      "command": "click",
-      "target": "css=.umd\\3Aoverflow-auto",
-      "targets": [
-        ["css=.umd\\3Aoverflow-auto", "css:finder"],
-        ["xpath=//div[@id='__next']/div/div[2]/div[3]/div/div[2]/div/div[2]", "xpath:idRelative"],
-        ["xpath=//div[3]/div/div[2]/div/div[2]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "07a33c54-0267-4000-9366-1578b2d1aab9",
-      "comment": "",
-      "command": "verifyText",
-      "target": "css=.\\!my-4 > .mb-6",
-      "targets": [
-        ["css=.\\!my-4 > .mb-6", "css:finder"],
-        ["xpath=//div[@id='__next']/div/div[2]/div[3]/div/div[2]/div/div", "xpath:idRelative"],
-        ["xpath=//div[2]/div[3]/div/div[2]/div/div", "xpath:position"]
-      ],
-      "value": "Dược liệu thông dụng"
-    }, {
-      "id": "cc91f949-569d-4bb1-b4c7-1b6bab327595",
-      "comment": "",
-      "command": "storeXpathCount",
-      "target": "xpath=/html/body/div[1]/div[1]/div[2]/div[3]/div/div[2]/div/div[3]/div",
-      "targets": [],
-      "value": "count"
-    }, {
-      "id": "191504ff-85ae-4075-ac11-478352478091",
-      "comment": "",
-      "command": "executeScript",
-      "target": "return 1",
-      "targets": [],
-      "value": "i"
-    }, {
-      "id": "00cd118f-5074-4916-9479-c418b8e3e3a5",
-      "comment": "",
-      "command": "while",
-      "target": "${i}<=${count}",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "7f7845ce-91d2-451d-8027-260b07592b64",
+      "id": "415a287e-7041-47ab-b926-69fadb814c91",
       "comment": "",
       "command": "storeText",
-      "target": "xpath=/html/body/div[1]/div[1]/div[2]/div[3]/div/div[2]/div/div[3]/div[1]",
+      "target": "xpath=//*[@id=\"__next\"]/div[1]/div[2]/div[3]/div/div[1]/div[2]/div[1]/div[3]/div[1]/div/div/div[2]/div[2]/span",
       "targets": [],
-      "value": "name"
+      "value": "giathanh"
     }, {
-      "id": "add2cf05-f48e-4bb0-aa4e-cc34f498e7dd",
-      "comment": "",
-      "command": "if",
-      "target": "${name}.startsWith('D') && !${name}.startsWith('Đ')",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "89fdb170-6393-4836-9a3c-cb82d50a118e",
-      "comment": "",
-      "command": "echo",
-      "target": "Lỗi tại dòng ${i}: ${name} sai quy tắc",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "72f325bc-0058-428f-b764-33e8c6af2158",
-      "comment": "",
-      "command": "end",
-      "target": "",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "af013a9f-241d-4d3e-8b4c-1d0e8b143cc1",
+      "id": "79424708-65ef-45bd-b8fd-a33ae5b0b143",
       "comment": "",
       "command": "executeScript",
-      "target": "return Number(${i}) + 1",
+      "target": "return parseInt(${giathanh}.replace(/[^0-9]/g, ''));",
       "targets": [],
-      "value": "i"
+      "value": "giathanh"
     }, {
-      "id": "391a5774-479a-4a6e-97cc-89070bde5586",
+      "id": "dacf7a01-eb27-468a-8d31-2fc45c002672",
       "comment": "",
-      "command": "verifyText",
-      "target": "css=.\\!my-4",
+      "command": "storeText",
+      "target": "xpath=//*[@id=\"__next\"]/div[1]/div[2]/div[3]/div/div[1]/div[2]/div[2]/div[1]/div[3]/div/div[2]/span",
+      "targets": [],
+      "value": "thanhtien"
+    }, {
+      "id": "f3f7aac3-3381-466e-bb68-a9b84e3b4a3d",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return parseInt(${thanhtien}.replace(/[^0-9]/g, ''));",
+      "targets": [],
+      "value": "thanhtien"
+    }, {
+      "id": "ae18968b-f0d9-4613-bac1-870500b47ede",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > div > .flex > .omd\\3Amr-3 > .h-5",
       "targets": [
-        ["css=.\\!my-4", "css:finder"],
-        ["xpath=//div[@id='__next']/div/div[2]/div[3]/div/div[2]/div", "xpath:idRelative"],
-        ["xpath=//div[2]/div[3]/div/div[2]/div", "xpath:position"]
+        ["css=div:nth-child(1) > div > .flex > .omd\\3Amr-3 > .h-5", "css:finder"],
+        ["xpath=(//button[@value='on'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/div[3]/div/div/div[2]/div/div[3]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/button", "xpath:position"]
       ],
-      "value": "Dược liệu thông dụng\\nA\\nB\\nC\\nD\\nG\\nH\\nI\\nK\\nL\\nM\\nN\\nO\\nP\\nQ\\nR\\nS\\nT\\nU\\nV\\nX\\nĐinh hương\\nĐơn Kim\\nDương xỉ\\nĐậu đen (Hạt)\\nDưa leo\\nDầu hạt cải\\nDiếp cá\\nĐậu Mèo\\nĐịa du (Rễ)\\nDiêm sinh\\nđậu nành\\nĐịa cốt bì\\nĐại tướng quân\\nĐộc hoạt (Rễ)\\nDây đau xương (Thân)\\nĐỗ trọng (Vỏ thân)\\nĐơn Buốt\\nĐại táo (Quả)\\nĐường phèn\\nĐông trùng hạ thảo\\n1\\n2\\n3\\n4"
+      "value": ""
     }, {
-      "id": "e65b6c0a-17f5-4047-a08a-b92652623c29",
+      "id": "5f785f1e-14ef-4723-bbfa-fded2aa3ba64",
       "comment": "",
-      "command": "end",
-      "target": "",
+      "command": "pause",
+      "target": "3000",
       "targets": [],
       "value": ""
+    }, {
+      "id": "7c8e03ed-6fa8-49ba-861e-db03d66c3902",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=//*[@id=\"__next\"]/div[1]/div[2]/div[3]/div/div[1]/div[2]/div[2]/div[1]/div[3]/div/div[2]",
+      "targets": [],
+      "value": "giamoi"
+    }, {
+      "id": "c5700a8f-1554-48f5-a5c6-185cf09fb14b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return parseInt(${giamoi}.replace(/[^0-9]/g, ''));",
+      "targets": [],
+      "value": "giamoi"
+    }, {
+      "id": "66d9f3ee-54ac-4816-abe8-c9174a27fd10",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return (${thanhtien} - ${giathanh}) ",
+      "targets": [],
+      "value": "tong"
+    }, {
+      "id": "1edec776-99c0-48bc-b440-3993113bd89c",
+      "comment": "",
+      "command": "verify",
+      "target": "tong",
+      "targets": [],
+      "value": "${giamoi}"
     }]
   }, {
     "id": "29aebc2c-a865-45eb-b746-5ad25b99a0d1",
@@ -5335,54 +5188,432 @@
     }]
   }, {
     "id": "7549c45d-bc90-49fe-aa1f-f8890363301f",
-    "name": "TC30 - Xem chi tiết chương trình flash sale",
+    "name": "TC30 - Kiểm tra quà tặng",
     "commands": [{
-      "id": "6be63ee4-e1fc-4abe-8373-88d317fe20e5",
+      "id": "9d8ed757-74c5-48c8-93d1-e9c1272b6793",
       "comment": "",
       "command": "open",
       "target": "https://nhathuoclongchau.com.vn/",
       "targets": [],
       "value": ""
     }, {
-      "id": "90b3e418-3f09-40a6-93bc-839c41002f69",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1552x832",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "f4885e27-c3c7-41e2-98d4-12d678da62dd",
+      "id": "d4cf4bef-9230-4d6c-8a03-0f21cde8cdbe",
       "comment": "",
       "command": "click",
-      "target": "css=.aspect-\\[1216\\/120\\]",
+      "target": "css=.list-none:nth-child(2) .group-hover\\3Atext-blue-5:nth-child(1)",
       "targets": [
-        ["css=.aspect-\\[1216\\/120\\]", "css:finder"],
-        ["xpath=//img[contains(@src,'https://cdn.nhathuoclongchau.com.vn/unsafe/2560x0/filters:quality(90):format(webp)/D_Banner_Flashsale_1216x120_HP_166c93f889.png')]", "xpath:img"],
-        ["xpath=//div[@id='__next']/div/div[2]/div[3]/div/div[4]/div/div/div/div/div/a/div/img[2]", "xpath:idRelative"],
-        ["xpath=//a/div/img[2]", "xpath:position"]
+        ["css=.list-none:nth-child(2) .group-hover\\3Atext-blue-5:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/li[2]/a/p", "xpath:idRelative"],
+        ["xpath=//li[2]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Dược mỹ phẩm')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "4e252216-2693-466a-875c-ff35c5f46601",
+      "id": "0103b6b8-e36f-4989-b0e2-705697c11b77",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Chăm sóc da mặt",
+      "targets": [
+        ["linkText=Chăm sóc da mặt", "linkText"],
+        ["css=.min-w-0:nth-child(1) > .space-y-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[2]/div[3]/div/div[3]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/duoc-my-pham/cham-soc-da-mat')])[4]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c44ba14d-e87f-409a-a94b-f05887147d3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-stroke-disable:nth-child(2) > .ml-3 > .text-text-primary",
+      "targets": [
+        ["css=.border-stroke-disable:nth-child(2) > .ml-3 > .text-text-primary", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[2]/div[3]/div/div[3]/div/div/a[2]/div/h2", "xpath:idRelative"],
+        ["xpath=//a[2]/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Kem chống nắng da mặt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07eaf34f-b580-4f6f-99f7-a4387a94fa41",
       "comment": "",
       "command": "runScript",
-      "target": "window.scrollTo(0,0)",
+      "target": "window.scrollTo(0,171.1999969482422)",
       "targets": [],
       "value": ""
     }, {
-      "id": "80b7e793-4509-4550-b47c-7d99c51f9964",
+      "id": "f9961e1e-b582-4971-8b63-c4dd628e7ad6",
       "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,930.4000244140625)",
+      "command": "storeXpathCount",
+      "target": "xpath=//*[@id=\"category-page__products-section\"]/div[2]/button",
+      "targets": [],
+      "value": "loadMore"
+    }, {
+      "id": "501207a6-1061-404e-8df4-4c696b2b858a",
+      "comment": "",
+      "command": "while",
+      "target": "${loadMore}>0",
       "targets": [],
       "value": ""
     }, {
-      "id": "f60586bb-82e2-41b8-8c71-c6acfe681b52",
+      "id": "4c9b39ab-f233-4f8a-957b-0aea7c4ff2fa",
       "comment": "",
-      "command": "verifyTitle",
-      "target": "Chương trình khuyến mãi hấp dẫn tại Nhà thuốc FPT Long Châu",
+      "command": "click",
+      "target": "xpath=//*[@id=\"category-page__products-section\"]/div[2]/button",
       "targets": [],
       "value": ""
+    }, {
+      "id": "1dec8323-9fdb-4110-8ff9-15100225ca60",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34b3885e-fbd6-46fe-82d1-1811339599f5",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//*[@id=\"category-page__products-section\"]/div[2]/button",
+      "targets": [],
+      "value": "loadMore"
+    }, {
+      "id": "fdb8b17f-4694-4d03-b6ff-3a72820f8f02",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07a69c60-e31d-414f-9087-1333af6491f6",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//section/div[2]/div/div/div/div/div",
+      "targets": [],
+      "value": "getall"
+    }, {
+      "id": "1d4aa385-e38a-4952-bf2a-ed854881a1b4",
+      "comment": "",
+      "command": "echo",
+      "target": "${getall}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86b8f1a3-21a3-4de4-8423-bbe766420835",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "x"
+    }, {
+      "id": "22bada13-adc7-42f7-a160-39987a226eb8",
+      "comment": "",
+      "command": "while",
+      "target": "${x}<=${getall}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee870758-462b-433f-a358-640825b23aeb",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=/html/body/div[1]/div[1]/div[2]/div[3]/div/div[3]/div/section/div[2]/div/div[${x}]/div/div[1]/a/div/div/span",
+      "targets": [],
+      "value": "quatang"
+    }, {
+      "id": "59759625-47b3-48fb-a333-998a5d793625",
+      "comment": "",
+      "command": "echo",
+      "target": "${quatang}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa4154db-5fb8-4d10-989b-801e6a7a1cbd",
+      "comment": "",
+      "command": "if",
+      "target": "${quatang}>0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ffcd1f36-7a02-4ab5-bd8f-5af04f3c3efa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-full:nth-child(${x}) .px-3 > .inline-flex",
+      "targets": [
+        ["css=.h-full:nth-child(1) .px-3 > .inline-flex", "css:finder"],
+        ["xpath=//section[@id='category-page__products-section']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Chọn mua')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "100a2d11-ef88-43f2-a760-289876c5c07b",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a55ba8de-1fba-4d9e-bad4-3ced37c98137",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8161c1eb-a581-4f85-bc86-7b64714837a9",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${x} + 1",
+      "targets": [],
+      "value": "x"
+    }, {
+      "id": "f4df6220-7f0d-4c13-8cf6-7f5bd23cf1a1",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21eed8c8-f06b-483e-a4a6-1177a57ce572",
+      "comment": "",
+      "command": "open",
+      "target": "https://nhathuoclongchau.com.vn/gio-hang",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0b7a370-9095-4daf-a6e6-9a375aff4268",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad6f72e7-2f7a-4f10-b72d-56f41081b9d9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=img[src*='ic_km_active']",
+      "targets": [
+        ["css=.\\[\\&\\>\\*\\]\\3Apy-2", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[2]/div[3]/div/div/div[2]/div/div[3]/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "de902b18-0001-4ac7-acb0-ca79d27bf3a1",
+    "name": "TC27 - Kiểm tra logic giảm giá flash sale",
+    "commands": [{
+      "id": "e12afd4e-f651-4942-be82-81fed02ef2f6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d90d86b3-bfdb-4425-ad20-74317df94438",
+      "comment": "",
+      "command": "open",
+      "target": "/flash-sale/flash-sale-1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32298187-4421-4da9-8533-14d2abd22520",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=(//div[@data-state='active' and @role='tabpanel']//div[contains(@class, 'bgi-promotion-tag')]//span)[1]",
+      "targets": [],
+      "value": "rawDiscount"
+    }, {
+      "id": "699aac6f-1904-4751-9dc6-c6127b018a39",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=(//div[@data-state='active' and @role='tabpanel']//div[contains(@class, 'text-blue-5')]/span[contains(@class, 'font-semibold')])[1]",
+      "targets": [],
+      "value": "rawNewPrice"
+    }, {
+      "id": "3c5988a2-c019-499c-a59a-c79d13640af9",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=(//div[@data-state='active' and @role='tabpanel']//div[contains(@class, 'line-through')])[1]",
+      "targets": [],
+      "value": "rawOldPrice"
+    }, {
+      "id": "a2ad5561-7089-4a32-84bf-14b7f76ec8ed",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"${rawDiscount}\".replace(/\\D/g, \"\");",
+      "targets": [],
+      "value": "strDiscount"
+    }, {
+      "id": "58cda7bc-492b-4587-9131-82796cf5008b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return parseInt(${strDiscount});",
+      "targets": [],
+      "value": "numDiscount"
+    }, {
+      "id": "67f064eb-81ef-477c-92e3-b71f977ab62a",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"${rawNewPrice}\".replace(/\\D/g, \"\");",
+      "targets": [],
+      "value": "strNewPrice"
+    }, {
+      "id": "f6a89d1e-4769-4ca7-b382-e3facced3fc5",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return parseInt(${strNewPrice});",
+      "targets": [],
+      "value": "numNewPrice"
+    }, {
+      "id": "5c51dac0-5d37-4574-9dce-bcc952fffcb9",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"${rawOldPrice}\".replace(/\\D/g, \"\");",
+      "targets": [],
+      "value": "strOldPrice"
+    }, {
+      "id": "8e883a5d-51e2-44f5-8c56-5a02ae339d6a",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return parseInt(${strOldPrice});",
+      "targets": [],
+      "value": "numOldPrice"
+    }, {
+      "id": "250ccdfb-142f-4585-a22b-9c39e6b59c18",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"${rawDiscount}\".includes(\"%\");",
+      "targets": [],
+      "value": "hasPercent"
+    }, {
+      "id": "70de4833-a5d6-4069-b585-2b07e808ac55",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return Number(${hasPercent});",
+      "targets": [],
+      "value": "isPercent"
+    }, {
+      "id": "b3b0f6f4-3679-41fa-b103-27dcc53f26d4",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1 - ${isPercent};",
+      "targets": [],
+      "value": "isFixed"
+    }, {
+      "id": "cfca6559-92e6-4704-ac40-eea073f7fce6",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${numOldPrice} * ${numDiscount} / 100;",
+      "targets": [],
+      "value": "calcPercentDiscount"
+    }, {
+      "id": "52beb0f3-978b-4423-9680-6461f69d8d1b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${isPercent} * ${calcPercentDiscount};",
+      "targets": [],
+      "value": "actualPercentDiscount"
+    }, {
+      "id": "5f89701e-b76c-4b4d-99de-d7f895ff40d6",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${isFixed} * ${numDiscount};",
+      "targets": [],
+      "value": "actualFixedDiscount"
+    }, {
+      "id": "33f1ef54-f6bd-4038-b62b-9dadbb65cdc6",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${numOldPrice} - ${actualPercentDiscount} - ${actualFixedDiscount};",
+      "targets": [],
+      "value": "exactPrice"
+    }, {
+      "id": "db71122f-9991-46ce-b4bb-1166701d1512",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return Math.round(${exactPrice});",
+      "targets": [],
+      "value": "expectedPrice"
+    }, {
+      "id": "5fa7f89f-9453-4b51-acb8-6e2b89dd6730",
+      "comment": "",
+      "command": "verify",
+      "target": "expectedPrice",
+      "targets": [],
+      "value": "${numNewPrice}"
+    }]
+  }, {
+    "id": "aef8804b-4fc7-469d-8211-a3fa39b12aa0",
+    "name": "TC25 - Kiểm tra xuất xứ",
+    "commands": [{
+      "id": "c9567e83-120b-4987-a6c5-ce648d1e27fd",
+      "comment": "",
+      "command": "open",
+      "target": "https://nhathuoclongchau.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98874e70-2cf2-4fbe-ad7b-dea5024d5e9b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=(//div[contains(@class, 'min-w-0 font-medium truncate')])[1]",
+      "targets": [],
+      "value": "10000"
+    }, {
+      "id": "227a4e08-86d8-4aaa-9ccb-8d8659706da9",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=(//div[contains(@class, 'min-w-0 font-medium truncate')])[1]",
+      "targets": [],
+      "value": "country_list"
+    }, {
+      "id": "88713b28-5eea-416e-b914-ef12b8212757",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//div[contains(@class, 'min-w-0 font-medium truncate')])[1]/ancestor::a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "905d0b8a-696e-4308-84a1-7755b27462a3",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "415dd5a5-18d8-4962-8e65-0d9c8f434faa",
+      "comment": "",
+      "command": "executeScript",
+      "target": "document.evaluate(\"//p[contains(@class, 'text-label2 font-medium') and contains(text(), 'Xem tất cả thông tin')]\", document, null, 9, null).singleNodeValue?.click();",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe2b8ba8-c308-4451-b29b-b46ae0f07687",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//p[contains(text(), 'Nước sản xuất')]/parent::div/following-sibling::div",
+      "targets": [],
+      "value": "20000"
+    }, {
+      "id": "2168fc67-a4c5-48fa-a53d-4b61e6513204",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=//p[contains(text(), 'Nước sản xuất')]/parent::div/following-sibling::div",
+      "targets": [],
+      "value": "country_detail"
+    }, {
+      "id": "64229a6f-7cbe-4996-826a-8122166cb678",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${country_list}.trim() === ${country_detail}.trim();",
+      "targets": [],
+      "value": "is_match"
+    }, {
+      "id": "73403f8a-aa61-4ce5-bfae-508896bcf2a8",
+      "comment": "",
+      "command": "verify",
+      "target": "is_match",
+      "targets": [],
+      "value": "true"
     }]
   }],
   "suites": [{
@@ -5433,7 +5664,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["93ccdd03-9ece-43dd-82be-e890f64d6221", "f73ef67a-ad2a-4033-872e-e9b1f21b334e", "12e151fa-886c-4c5e-94a1-e1178af67d39", "9d30a929-3a27-4a13-914f-25b835b49057"]
+    "tests": ["93ccdd03-9ece-43dd-82be-e890f64d6221", "f73ef67a-ad2a-4033-872e-e9b1f21b334e", "12e151fa-886c-4c5e-94a1-e1178af67d39"]
   }, {
     "id": "ac577242-51b5-42ba-948d-e45d9e2ec43f",
     "name": "Ưu đãi",
